@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shantell+Sans:ital,wght@1,300&display=swap');
+/* 
+    #Conteuner{
+        margin-top: 30%;
+        padding-top: 25px;
+    } */
+
+#Conteiner{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+    background: #b587ff;
+    margin:10px;
+    padding: 10px;
+}
+
+#nav{
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-top: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#nav li{            
+    display: inline;
+    background: #b587ff;
+    border: 2px solid silver;
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+
+#nav li:hover{
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    border-color: #333;
+}
+
+#nav li:not(:last-of-type){
+    margin-right: 20px;
+}

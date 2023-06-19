@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+.button{
+    margin-top: 48px;
+    text-align: left;
+}
+
+
+.button a{
+    font-family: 'Lora', serif;
+    background-color: gray;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}

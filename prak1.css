@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@100;300&family=Roboto&family=Shantell+Sans:ital,wght@1,300&display=swap');
+
+    *{
+        margin: 0px;
+        padding: 0px 0px  ;
+     }
+
+body{
+    background: rgb(165, 250, 147);
+    color: rgb(114, 112, 255);
+    font-family: 'Gloock', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+
+}
+
+#head_site{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.conteiner{
+    background: black;
+}
+
+.name_site{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.menu_saita{
+    background:black;
+    display: block;
+
+}
+
+#nav li{
+    margin-left: 140px;
+    display: inline;
+    border: 3px solid red;
+    background: aquamarine;
+    cursor: pointer;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#nav li:hover{
+    background: black;
+    color: gold;
+    border-radius: 10px;
+    border-color: rgb(247, 78, 112);
+}
+ 
+#nav li:not(:last-of-type){
+    margin-right: 20px;
+}
