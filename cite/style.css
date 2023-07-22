@@ -47,9 +47,9 @@
 }
 
 
-.pop_up_header p{
-    text-align: center;
-    top:10px;
+.pop_up_header::h1{
+    text-align: left;
+    top:100%;
 }
 
 
