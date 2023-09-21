@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+
+.header{
+    /* border-bottom-color: brown;
+    border-bottom-width: 5px;
+    border-bottom-style: dashed; */
+    border: 7px solid brown;
+}
+
+.header_text{
+    text-align: center;
+    color: blue;
+}
+
+
+p{
+    color:blue;
+}
+
+.main{
+    border:8px solid blue;
+}
+
+.footer{
+    border: 8px solid green;
+}
